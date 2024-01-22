@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f855e6bc.css",
-    "main.js": "/react-gh-pages/static/js/main.e5678f54.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.f855e6bc.css.map": "/react-gh-pages/static/css/main.f855e6bc.css.map",
-    "main.e5678f54.js.map": "/react-gh-pages/static/js/main.e5678f54.js.map"
+    "main.css": "/valeriebeauchemin/static/css/main.f855e6bc.css",
+    "main.js": "/valeriebeauchemin/static/js/main.e5678f54.js",
+    "index.html": "/valeriebeauchemin/index.html",
+    "main.f855e6bc.css.map": "/valeriebeauchemin/static/css/main.f855e6bc.css.map",
+    "main.e5678f54.js.map": "/valeriebeauchemin/static/js/main.e5678f54.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
