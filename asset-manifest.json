@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/valeriebeauchemin/static/css/main.f855e6bc.css",
-    "main.js": "/valeriebeauchemin/static/js/main.e5678f54.js",
+    "main.css": "/valeriebeauchemin/static/css/main.25e8ad31.css",
+    "main.js": "/valeriebeauchemin/static/js/main.3bea0331.js",
+    "static/media/Moul-Regular.ttf": "/valeriebeauchemin/static/media/Moul-Regular.1ad4d0d00593229b22df.ttf",
+    "static/media/logo.webp": "/valeriebeauchemin/static/media/logo.75f5eda62ce1451d33ff.webp",
     "index.html": "/valeriebeauchemin/index.html",
-    "main.f855e6bc.css.map": "/valeriebeauchemin/static/css/main.f855e6bc.css.map",
-    "main.e5678f54.js.map": "/valeriebeauchemin/static/js/main.e5678f54.js.map"
+    "main.25e8ad31.css.map": "/valeriebeauchemin/static/css/main.25e8ad31.css.map",
+    "main.3bea0331.js.map": "/valeriebeauchemin/static/js/main.3bea0331.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e5678f54.js"
+    "static/css/main.25e8ad31.css",
+    "static/js/main.3bea0331.js"
   ]
 }
