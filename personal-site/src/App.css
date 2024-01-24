@@ -5,6 +5,19 @@
   width: 100%;
 }
 
+.App__background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: max(100vw, 100vh) * 2;
+  width: max(100vw, 100vh) * 2;
+  z-index: 0;
+  animation-name: center-spin;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 .canvas {
   position: absolute;
   top: 0;
@@ -12,6 +25,11 @@
   height: 100%;
   width: 100%;
   z-index: 1;
+  animation-name: fade-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .logo-mask {
@@ -35,6 +53,7 @@
   transform: translate(-50%, -50%);
   text-shadow: 0 0 10px rgba(0, 0, 0, 1);
   z-index: 3;
+  color: white;
 }
 
 .App__title {
@@ -56,4 +75,14 @@
 @keyframes pulse {
   0%   {height: 384px}
   100%  {height: 288px;}
+}
+
+@keyframes fade-out {
+  0%   {opacity: 0.90}
+  100%  {opacity: 0.75;}
+}
+
+@keyframes center-spin {
+  0%   {transform: translate(-50%, -50%) rotate(0deg)}
+  100%  {transform: translate(-50%, -50%) rotate(360deg);}
 }

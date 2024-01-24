@@ -7,15 +7,11 @@ import background from './background.jpg';
 import AOS from 'aos';
 
 function App() {
+
   useEffect(() => {
     new Granim ({
       element: "#canvas",
       direction: "radial",
-      image: {
-        source: background,
-        blendingMode: "multiply",
-        stretchMode: ["stretch-if-bigger", "stretch-if-bigger"],
-      },
       states: {
         "default-state": {
           gradients: [
@@ -33,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+      <img className="App__background" src={background} alt="background" />
       <canvas id="canvas" className="canvas"></canvas>
       <img className="logo-mask" src={logo} alt="logo" />
       <div className="App__text-content">
