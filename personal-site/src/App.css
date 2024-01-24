@@ -9,8 +9,8 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  height: max(100vw, 100vh) * 2;
-  width: max(100vw, 100vh) * 2;
+  height: max(100vw * 1.25, 100vh * 1.25);
+  width: max(100vw * 1.25, 100vh * 1.25);
   z-index: 0;
   animation-name: center-spin;
   animation-duration: 8s;
