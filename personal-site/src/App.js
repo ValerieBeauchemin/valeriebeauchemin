@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import Granim from "granim";
 import logo from './logo.webp';
 import background from './background.jpg';
-import AOS from 'aos';
+import Swal from 'sweetalert2'
 
 function App() {
 
@@ -24,8 +24,41 @@ function App() {
       }
     });
   }, []);
-  
-  AOS.init();
+
+  const handleClick = () => {
+    Swal.fire({
+      title: 'Birthdate Confirmation',
+      text: 'I confirm that I was born on or before 12/31/2049',
+      icon: 'question',
+      allowOutsideClick: false,
+      allowEscapeKey: false,
+      allowEnterKey: false,
+      confirmButtonText: 'Confirm',
+      showDenyButton: true,
+      denyButtonText: 'Deny',
+    }).then((result) => {
+      /* If user confirmed birthdate, set cookie allowing them access, otherwise open an alert informing them that they have been denied access */
+      if (result.isConfirmed) {
+        document.cookie = "access=true";
+        window.location.href = "/home";
+      }
+      else {
+        Swal.fire({
+          title: 'Access Denied',
+          text: 'Due to the Time Tourism Bill that will have been passed in 2050, you must be born on or before 12/31/2049 to access this site.',
+          icon: 'error',
+          confirmButtonText: 'OK',
+          allowOutsideClick: false,
+          allowEscapeKey: false,
+          allowEnterKey: false,
+        }).then((result) => {
+          if (result.isConfirmed) {
+            window.location.reload();
+          }
+        });
+      }
+    });
+  }
 
   return (
     <div className="App">
@@ -35,6 +68,7 @@ function App() {
       <div className="App__text-content">
         <header className="App__title">ChronoSphere</header>
         <p className="App__subtitle">Time Tours</p>
+        <button className="App__button" onClick={handleClick}>Enter</button>
       </div>
     </div>
   );
