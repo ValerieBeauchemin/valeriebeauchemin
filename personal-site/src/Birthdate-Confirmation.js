@@ -18,7 +18,7 @@ const handleClick = () => {
     /* If user confirmed birthdate, set cookie allowing them access, otherwise open an alert informing them that they have been denied access */
     if (result.isConfirmed) {
       document.cookie = "access=true";
-      window.location.href = "/home";
+      window.location.href = "#/home";
     } else {
       Swal.fire({
         title: "Access Denied",
@@ -30,7 +30,7 @@ const handleClick = () => {
         allowEnterKey: false,
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = "/BlockedAccess";
+          window.location.href = "#/BlockedAccess";
         }
       });
     }

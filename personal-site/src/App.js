@@ -1,14 +1,14 @@
 import "./App.css";
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/home";
 import BlockedAccess from "./routes/blocked-access";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/valeriebeauchemin",
+    path: "/",
     element: <Root />,
   },
   {
