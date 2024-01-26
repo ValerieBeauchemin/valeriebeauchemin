@@ -6,7 +6,7 @@ import "./Birthdate-Confirmation.css";
 const handleClick = () => {
   Swal.fire({
     title: "Birthdate Confirmation",
-    text: "I confirm that I was born on or before 12/31/2049",
+    text: "I confirm that I was born on or after 01/01/2050",
     icon: "question",
     allowOutsideClick: false,
     allowEscapeKey: false,
@@ -22,15 +22,15 @@ const handleClick = () => {
     } else {
       Swal.fire({
         title: "Access Denied",
-        text: "Due to the Time Tourism Bill that will have been passed in 2050, you must be born on or before 12/31/2049 to access this site.",
+        text: "Users born before the year 2050 are ineligible for our Time Travel Tours. We apologize for the inconvenience.",
         icon: "error",
-        confirmButtonText: "OK",
+        confirmButtonText: "Learn More",
         allowOutsideClick: false,
         allowEscapeKey: false,
         allowEnterKey: false,
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.reload();
+          window.location.href = "/BlockedAccess";
         }
       });
     }

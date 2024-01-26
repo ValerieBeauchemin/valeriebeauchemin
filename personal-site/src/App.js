@@ -4,15 +4,20 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/home";
+import BlockedAccess from "./routes/blocked-access";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/valeriebeauchemin",
     element: <Root />,
   },
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/BlockedAccess",
+    element: <BlockedAccess />,
   },
   {
     path: "/error",
