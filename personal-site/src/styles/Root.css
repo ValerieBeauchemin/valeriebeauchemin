@@ -62,7 +62,7 @@
 
 @font-face {
   font-family: "Moul";
-  src: url("./Moul-Regular.ttf") format("truetype");
+  src: url("../resources/Moul-Regular.ttf") format("truetype");
 }
 
 @keyframes pulse {

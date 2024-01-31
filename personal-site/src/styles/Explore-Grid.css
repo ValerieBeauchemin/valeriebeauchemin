@@ -1,0 +1,42 @@
+.Explore-Grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Explore-Grid__item {
+  width: 40%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.Explore-Grid-Item__image {
+  display: block;
+  border: 3px solid #262626;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.Explore-Grid-Item__text-content {
+  border: 3px solid #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #262626;
+  padding: 20px;
+}
+
+.Explore-Grid-Item__title {
+  font-size: 24px;
+  font-family: "Moul", serif;
+  margin: 0;
+}
+
+.Explore-Grid-Item__subtitle {
+  font-size: 16px;
+  font-family: "Moul", serif;
+  margin: 0;
+}

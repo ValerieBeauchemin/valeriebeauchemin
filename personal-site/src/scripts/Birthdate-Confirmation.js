@@ -1,6 +1,6 @@
 /** React component for the birthdate confirmation button, and the pop-up that it creates. */
 import Swal from "sweetalert2";
-import "./Birthdate-Confirmation.css";
+import "../styles/Birthdate-Confirmation.css";
 
 /** Handles the click event for the birthdate confirmation button. */
 const handleClick = () => {

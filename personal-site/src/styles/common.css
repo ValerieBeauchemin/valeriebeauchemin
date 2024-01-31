@@ -1,0 +1,17 @@
+/* common styles */
+/* Path: src/styles/home.css */
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../resources/Comfortaa.ttf") format("truetype");
+}
+
+/* primary styling for content on homepage */
+
+.main-content {
+  font-family: Comfortaa, sans-serif;
+}
+
+.Page-Title {
+  margin: 0;
+}

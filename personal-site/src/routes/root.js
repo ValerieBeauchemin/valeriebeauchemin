@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Granim from "granim";
-import logo from "../logo.webp";
-import background from "../background.jpg";
-import BirthdateConfirmation from "../Birthdate-Confirmation";
-import "../Root.css";
+import logo from "../resources/logo.webp";
+import background from "../resources/background.jpg";
+import BirthdateConfirmation from "../scripts/Birthdate-Confirmation";
+import "../styles/Root.css";
 
 /** React component for the root page. */
 export default function Root() {
