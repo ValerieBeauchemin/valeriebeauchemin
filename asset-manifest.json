@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/valeriebeauchemin/static/css/main.21cd542b.css",
-    "main.js": "/valeriebeauchemin/static/js/main.e281f624.js",
+    "main.css": "/valeriebeauchemin/static/css/main.49177fb7.css",
+    "main.js": "/valeriebeauchemin/static/js/main.f4893893.js",
     "static/media/background.jpg": "/valeriebeauchemin/static/media/background.84d2e903ab1e6f077a32.jpg",
     "static/media/product_image.jpg": "/valeriebeauchemin/static/media/product_image.ee7aa59030d11a2474f1.jpg",
+    "static/media/galaxy.jpg": "/valeriebeauchemin/static/media/galaxy.827131a72bc24ca6ea5c.jpg",
     "static/media/past-forest.jpg": "/valeriebeauchemin/static/media/past-forest.513bca2900a9b7f0b833.jpg",
+    "static/media/timelapse.jpg": "/valeriebeauchemin/static/media/timelapse.45c25f6af75c78471e4d.jpg",
     "static/media/future-city.jpg": "/valeriebeauchemin/static/media/future-city.1a58215a5316bcc37b71.jpg",
+    "static/media/rome.jpg": "/valeriebeauchemin/static/media/rome.7430305b5454f09541af.jpg",
+    "static/media/family.jpg": "/valeriebeauchemin/static/media/family.3716fe086e343cf4d47f.jpg",
     "static/media/Comfortaa.ttf": "/valeriebeauchemin/static/media/Comfortaa.7b8c952927af2b0deacd.ttf",
     "static/media/Moul-Regular.ttf": "/valeriebeauchemin/static/media/Moul-Regular.1ad4d0d00593229b22df.ttf",
     "static/media/chronosphere.png": "/valeriebeauchemin/static/media/chronosphere.3d10f52333bbd85fe6b5.png",
     "index.html": "/valeriebeauchemin/index.html",
-    "main.21cd542b.css.map": "/valeriebeauchemin/static/css/main.21cd542b.css.map",
-    "main.e281f624.js.map": "/valeriebeauchemin/static/js/main.e281f624.js.map"
+    "main.49177fb7.css.map": "/valeriebeauchemin/static/css/main.49177fb7.css.map",
+    "main.f4893893.js.map": "/valeriebeauchemin/static/js/main.f4893893.js.map"
   },
   "entrypoints": [
-    "static/css/main.21cd542b.css",
-    "static/js/main.e281f624.js"
+    "static/css/main.49177fb7.css",
+    "static/js/main.f4893893.js"
   ]
 }
