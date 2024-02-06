@@ -9,13 +9,13 @@
   width: 40%;
   margin-top: 20px;
   position: relative;
-}
-
-.Explore-Grid-Item__image {
   display: block;
   border: 3px solid #262626;
   border-radius: 8px;
-  width: 100%;
+  padding-bottom: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Explore-Grid-Item__text-content {

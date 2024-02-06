@@ -3,8 +3,13 @@ import "../styles/Home.css";
 import Navigation from "../scripts/Navigation";
 import { Link } from "react-router-dom";
 import productImage from "../resources/product_image.jpg";
+import chronosphere from "../resources/chronosphere.png";
 import futureCity from "../resources/future-city.jpg";
 import pastForest from "../resources/past-forest.jpg";
+import timelapse from "../resources/timelapse.jpg";
+import rome from "../resources/rome.jpg";
+import galaxy from "../resources/galaxy.jpg";
+import family from "../resources/family.jpg";
 import ExploreGrid from "../scripts/Explore-Grid";
 
 /* Content for the Explore-Grid component. */
@@ -25,31 +30,31 @@ const items = [
   },
   {
     id: 3,
-    image: futureCity,
-    imageAlt: "A futuristic city",
-    title: "Future Tours",
-    subtitle: "See the future of humanity for yourself!",
+    image: rome,
+    imageAlt: "A depiction of Rome in ancient times",
+    title: "Historic Tours",
+    subtitle: "See the wonders of ancient civilisations in their primes!",
   },
   {
     id: 4,
-    image: pastForest,
-    imageAlt: "A prehistoric landscape",
-    title: "Prehistoric Tours",
-    subtitle: "Experience an age before humanity!",
+    image: timelapse,
+    imageAlt: "A scene of a city being rapidly built up and torn down",
+    title: "Timelapse Tours",
+    subtitle: "Watch the history of the Earth unfold before your eyes!",
   },
   {
     id: 5,
-    image: futureCity,
-    imageAlt: "A futuristic city",
-    title: "Future Tours",
-    subtitle: "See the future of humanity for yourself!",
+    image: galaxy,
+    imageAlt: "A galaxy being created",
+    title: "Cosmic Tours",
+    subtitle: "Drift in the serene ocean of space and time!",
   },
   {
     id: 6,
-    image: pastForest,
-    imageAlt: "A prehistoric landscape",
-    title: "Prehistoric Tours",
-    subtitle: "Experience an age before humanity!",
+    image: family,
+    imageAlt: "A family gasping in wonder",
+    title: "Custom Tours",
+    subtitle: "See what YOU want to see!",
   },
 ];
 
@@ -66,6 +71,11 @@ export default function Home() {
             src={productImage}
             alt="The ChronoSphere time travel machine"
           />
+          <img
+            src={chronosphere}
+            alt="ChronoSphere logo"
+            className="Hero__logo"
+          />
           <div className="Hero__text-content">
             <h1 className="Hero__title">ChronoSphere Time Tours</h1>
             <p className="Hero__subtitle">
@@ -77,14 +87,10 @@ export default function Home() {
           <div className="Info-Box__text-content">
             <p>
               Welcome to ChronoSphere Time Tours, the best time travel agency in
-              the universe! We offer a wide variety of tours to suit your needs,
-              from the prehistoric era to the far future. Our tours are safe,
-              fun, and educational. We guarantee* that you will have the time of
-              your life!
-            </p>
-            <p>
-              To get started, click on the "Tours" button in the navigation bar
-              above.
+              the universe! With our state-of-the-art ChronoSphere time machine,
+              you can travel to any point in history or the future. Our expert
+              guides will ensure that you have a safe and enjoyable experience
+              as you explore the wonders of the space-time continuum.
             </p>
           </div>
           <span className="Info-Box__disclaimer">

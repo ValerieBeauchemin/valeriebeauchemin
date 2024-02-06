@@ -43,6 +43,13 @@
   border: 3px solid white;
 }
 
+.Hero__logo {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
 .Info-Box {
   display: flex;
   justify-content: center;
