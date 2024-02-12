@@ -3,7 +3,6 @@ import "../styles/Home.css";
 import Navigation from "../scripts/Navigation";
 import { Link } from "react-router-dom";
 import productImage from "../resources/product_image.jpg";
-import chronosphere from "../resources/chronosphere.png";
 import futureCity from "../resources/future-city.jpg";
 import pastForest from "../resources/past-forest.jpg";
 import timelapse from "../resources/timelapse.jpg";
@@ -11,6 +10,7 @@ import rome from "../resources/rome.jpg";
 import galaxy from "../resources/galaxy.jpg";
 import family from "../resources/family.jpg";
 import ExploreGrid from "../scripts/Explore-Grid";
+import LogoGradient from "../scripts/Logo-Gradient";
 
 /* Content for the Explore-Grid component. */
 const items = [
@@ -71,11 +71,9 @@ export default function Home() {
             src={productImage}
             alt="The ChronoSphere time travel machine"
           />
-          <img
-            src={chronosphere}
-            alt="ChronoSphere logo"
-            className="Hero__logo"
-          />
+          <div className="Hero__logo">
+            <LogoGradient />
+          </div>
           <div className="Hero__text-content">
             <h1 className="Hero__title">ChronoSphere Time Tours</h1>
             <p className="Hero__subtitle">

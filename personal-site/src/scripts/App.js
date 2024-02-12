@@ -5,7 +5,7 @@ import Root from "../routes/root";
 import ErrorPage from "./error-page";
 import Home from "../routes/home";
 import BlockedAccess from "../routes/blocked-access";
-import About from "./About";
+import About from "../routes/about";
 import Tours from "./Tours";
 import Contact from "./Contact";
 

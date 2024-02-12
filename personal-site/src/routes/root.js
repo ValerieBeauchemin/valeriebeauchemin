@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Granim from "granim";
-import chronosphere from "../resources/chronosphere.png";
+import logo from "../resources/logo_spin.gif";
 import background from "../resources/background.jpg";
 import BirthdateConfirmation from "../scripts/Birthdate-Confirmation";
 import "../styles/Root.css";
@@ -28,7 +28,7 @@ export default function Root() {
     <div>
       <img className="App__background" src={background} alt="background" />
       <canvas id="canvas" className="canvas"></canvas>
-      <img className="logo-mask" src={chronosphere} alt="logo" />
+      <img className="logo-mask" src={logo} alt="logo" />
       <div className="App__text-content">
         <header className="App__title">ChronoSphere</header>
         <p className="App__subtitle">Time Tours</p>

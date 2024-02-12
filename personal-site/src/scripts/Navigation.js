@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import chronosphere from "../resources/chronosphere.png";
+import logo from "../resources/logo.png";
 import "../styles/Navigation.css";
 
 /* Navigation bar for the website */
@@ -9,7 +9,7 @@ export default function Navigation() {
     <nav className="Navigation">
       <div className="Navigation__logo">
         <Link to="/home" title="Go to Homepage">
-          <img src={chronosphere} alt="logo" className="Logo" />
+          <img src={logo} alt="logo" className="Logo" />
         </Link>
       </div>
       <ul className="Navigation__list">

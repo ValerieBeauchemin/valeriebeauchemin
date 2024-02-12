@@ -1,0 +1,24 @@
+.About {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.About__logo {
+  margin: 20px 0;
+}
+
+.About__text {
+  font-size: 20px;
+  padding: 20px;
+  max-width: 600px;
+  border: 3px solid #262626;
+  border-radius: 8px;
+  background-color: black;
+}
