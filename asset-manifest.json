@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/valeriebeauchemin/static/css/main.066d5479.css",
-    "main.js": "/valeriebeauchemin/static/js/main.56767952.js",
+    "main.css": "/valeriebeauchemin/static/css/main.8ca1eb3f.css",
+    "main.js": "/valeriebeauchemin/static/js/main.28194b90.js",
     "static/media/background.jpg": "/valeriebeauchemin/static/media/background.84d2e903ab1e6f077a32.jpg",
     "static/media/product_image.jpg": "/valeriebeauchemin/static/media/product_image.ee7aa59030d11a2474f1.jpg",
     "static/media/galaxy.jpg": "/valeriebeauchemin/static/media/galaxy.827131a72bc24ca6ea5c.jpg",
@@ -14,11 +14,11 @@
     "static/media/Moul-Regular.ttf": "/valeriebeauchemin/static/media/Moul-Regular.1ad4d0d00593229b22df.ttf",
     "static/media/logo_spin.gif": "/valeriebeauchemin/static/media/logo_spin.031b1e195d11b33362ae.gif",
     "index.html": "/valeriebeauchemin/index.html",
-    "main.066d5479.css.map": "/valeriebeauchemin/static/css/main.066d5479.css.map",
-    "main.56767952.js.map": "/valeriebeauchemin/static/js/main.56767952.js.map"
+    "main.8ca1eb3f.css.map": "/valeriebeauchemin/static/css/main.8ca1eb3f.css.map",
+    "main.28194b90.js.map": "/valeriebeauchemin/static/js/main.28194b90.js.map"
   },
   "entrypoints": [
-    "static/css/main.066d5479.css",
-    "static/js/main.56767952.js"
+    "static/css/main.8ca1eb3f.css",
+    "static/js/main.28194b90.js"
   ]
 }
